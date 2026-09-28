@@ -29,6 +29,7 @@ import image from '../assets/images/recital/ucuj7080.jpg'
             „In mehreren Videotelefonaten wurde ich von Francis über die Aktivitäten der AMS informiert, konnte mir einen umfassenden Eindruck seiner Arbeit
             verschaffen und der grosse Bedarf – nicht nur – an Instrumenten wurde immer sichtbarer.“
           </p>
+          <footer class="ams-quote__source">Kai Kopp, Musikschulleiter der JMK</footer>
         </blockquote>
         <p>
           Um auf die Arbeit der AMS aufmerksam zu machen, weiss Francis Kalema um die Wichtigkeit sozialer Medien und nutzt diese Möglichkeiten intensiv. Sein

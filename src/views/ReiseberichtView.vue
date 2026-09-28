@@ -84,7 +84,10 @@ const busunju = [bild1, bild2, bild3, bild4, bild5, bild6].map((src, i) => ({ sr
         Überlebenskampf lernte er bei Brass Bands die Welt der Musik kennen. Er lief den Musikern so lange hinterher, bis sie sich erbarmten und der kleinen
         neugierigen Nervensäge zeigten, wie man ein Instrument spielt. Diese Erfahrung prägte fortan Francis’ Lebensgeschichte und heute sagt er:
       </p>
-      <blockquote class="ams-quote"><p>„Die Musik hat mich gerettet!“</p></blockquote>
+      <blockquote class="ams-quote">
+        <p>„Die Musik hat mich gerettet!“</p>
+        <footer class="ams-quote__source">Francis Kalema, Leiter der AMS</footer>
+      </blockquote>
       <p>
         Auf dieser Grundlage baut Francis das Projekt AMS auf, dem er seit 2017 sein Leben verschreibt und das mit genau denselben Parametern agiert. Er bietet
         mittellosen Strassenkindern zunächst das Wichtigste im Leben: Liebe!

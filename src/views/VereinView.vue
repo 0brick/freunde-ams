@@ -38,6 +38,7 @@ import { verein } from '../content/verein'
             der AMS in Uganda eingebunden. Ihre Spenden kommen direkt und ohne Umwege den Kindern und Jugendlichen an der Africa Music School in Uganda zugute.
             Hierfür verbürgen wir uns.
           </p>
+          <footer class="ams-quote__source">Der Vorstand</footer>
         </blockquote>
       </div>
 

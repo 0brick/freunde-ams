@@ -56,6 +56,7 @@ const teasers = [
         </p>
         <blockquote class="ams-quote">
           <p>Mit grosser Freude unterstützen wir diese wertvolle Arbeit und laden Sie ein, ein Teil davon zu werden.</p>
+          <footer class="ams-quote__source">Freunde der Africa Music School</footer>
         </blockquote>
       </div>
       <aside class="intro__aside">

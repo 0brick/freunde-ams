@@ -17,7 +17,7 @@ const links = [
       <div class="ams-prose">
         <blockquote class="ams-quote">
           <p>Wer schnell sein will, geht alleine. Wer weit kommen will, geht gemeinsam.</p>
-          <footer class="quote-source">Afrikanisches Sprichwort</footer>
+          <footer class="ams-quote__source">Afrikanisches Sprichwort</footer>
         </blockquote>
         <h2>Die Helferinnen und Helfer der Africa Music School</h2>
         <p>
@@ -29,15 +29,3 @@ const links = [
     </div>
   </section>
 </template>
-
-<style scoped>
-.quote-source {
-  margin-top: var(--cui-space-3);
-  font-family: var(--cui-font-sans);
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--cui-text-muted);
-}
-</style>

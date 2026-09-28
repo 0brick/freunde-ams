@@ -137,8 +137,23 @@ h4 {
   color: var(--cui-heading);
 }
 
-.ams-quote p:last-child {
+.ams-quote p:last-child,
+.ams-quote p:has(+ .ams-quote__source) {
   margin: 0;
+}
+
+.ams-quote__source {
+  margin-top: var(--cui-space-3);
+  font-family: var(--cui-font-sans);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cui-text-muted);
+}
+
+.ams-quote__source::before {
+  content: '— ';
 }
 
 .ams-card {

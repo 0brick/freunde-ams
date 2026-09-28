@@ -11,7 +11,8 @@ import { verein } from '../content/verein'
     <div class="cui-container ams-grid ams-grid--aside">
       <div class="ams-prose">
         <blockquote class="ams-quote">
-          <p>„Kunst ist schön, macht aber viel Arbeit“, wusste bereits Karl Valentin.</p>
+          <p>„Kunst ist schön, macht aber viel Arbeit.“</p>
+          <footer class="ams-quote__source">Karl Valentin</footer>
         </blockquote>
         <p class="ams-lead">Gutes zu tun ist ebenso schön und mit viel Arbeit verbunden.</p>
         <p>Gerne laden wir Sie ein, sich aktiv in die mannigfaltigen To-Dos des Vereins einzubringen. Nehmen Sie bitte Kontakt auf zu:</p>
