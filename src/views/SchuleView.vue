@@ -9,6 +9,8 @@ import image from '../assets/images/recital/ucuj7080.jpg'
     text="Ein Ort der Hoffnung und Veränderung in Kampala, Uganda."
     :image="image"
     image-alt="Das Blasorchester der Africa Music School auf der Bühne"
+    image-position="center 35%"
+    image-position-mobile="78% 40%"
   />
 
   <section class="ams-section">

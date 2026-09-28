@@ -20,6 +20,8 @@ const busunju = [bild1, bild2, bild3, bild4, bild5, bild6].map((src, i) => ({ sr
     text="Ein persönlicher Einblick in die Arbeit der Africa Music School."
     :image="heroImage"
     image-alt="Die Africa Music School empfängt mit Musik und Tanz"
+    image-position="center 30%"
+    image-position-mobile="60% 40%"
   />
 
   <article class="ams-section">

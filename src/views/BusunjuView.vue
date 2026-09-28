@@ -10,6 +10,8 @@ import image from '../assets/images/busunju/bild6.jpg'
     text="Ein neues Kapitel für die Africa Music School."
     :image="image"
     image-alt="Erste Holzbauten der Africa Music School auf dem Grundstück in Busunju"
+    image-position="center 55%"
+    image-position-mobile="65% center"
   />
 
   <section class="ams-section">
