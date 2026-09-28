@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import PageHero from '../components/PageHero.vue'
+import PhotoGallery from '../components/PhotoGallery.vue'
+import ZoomImage from '../components/ZoomImage.vue'
 import heroImage from '../assets/images/allgemein/reisebericht-2023.jpg'
 import bild1 from '../assets/images/busunju/bild1.jpg'
 import bild2 from '../assets/images/busunju/bild2.jpg'
@@ -8,7 +10,7 @@ import bild4 from '../assets/images/busunju/bild4.jpg'
 import bild5 from '../assets/images/busunju/bild5.jpg'
 import bild6 from '../assets/images/busunju/bild6.jpg'
 
-const busunju = [bild1, bild2, bild3, bild4, bild5, bild6]
+const busunju = [bild1, bild2, bild3, bild4, bild5, bild6].map((src, i) => ({ src, alt: `Erste Arbeiten in Busunju, Bild ${i + 1}` }))
 </script>
 
 <template>
@@ -62,7 +64,7 @@ const busunju = [bild1, bild2, bild3, bild4, bild5, bild6]
       </p>
 
       <h3>Die Africa Music School empfängt mit viel Musik &amp; Tanz</h3>
-      <img :src="heroImage" alt="Schülerinnen und Schüler der AMS begrüssen die Gäste mit Blasmusik und Tanz" class="ams-photo inline-photo" loading="lazy" />
+      <ZoomImage :src="heroImage" alt="Schülerinnen und Schüler der AMS begrüssen die Gäste mit Blasmusik und Tanz" class="ams-photo" />
 
       <h3>In Busunju entsteht die neue AMS</h3>
       <p>
@@ -73,9 +75,7 @@ const busunju = [bild1, bild2, bild3, bild4, bild5, bild6]
       </p>
     </div>
     <div class="cui-container">
-      <div class="ams-photo-grid">
-        <img v-for="(src, i) in busunju" :key="src" :src="src" :alt="`Erste Arbeiten in Busunju, Bild ${i + 1}`" loading="lazy" />
-      </div>
+      <PhotoGallery :images="busunju" ratio="4 / 3" min-width="26rem" class="ams-gallery" />
     </div>
     <div class="cui-container ams-prose">
       <h3>Wie kommt Francis zu seinem Engagement?</h3>
@@ -100,7 +100,7 @@ const busunju = [bild1, bild2, bild3, bild4, bild5, bild6]
 </template>
 
 <style scoped>
-.inline-photo {
+.ams-prose :deep(.zoom) {
   margin: var(--cui-space-4) 0 var(--cui-space-6);
 }
 </style>

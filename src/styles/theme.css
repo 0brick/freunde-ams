@@ -185,18 +185,8 @@ h4 {
   box-shadow: var(--cui-shadow-md);
 }
 
-.ams-photo-grid {
-  display: grid;
-  gap: var(--cui-space-4);
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr));
+.ams-gallery {
   margin: var(--cui-space-5) 0 var(--cui-space-6);
-}
-
-.ams-photo-grid img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-radius: var(--cui-radius-md);
 }
 
 .ams-facts {

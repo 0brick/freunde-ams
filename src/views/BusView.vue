@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import PageHero from '../components/PageHero.vue'
+import PhotoGallery from '../components/PhotoGallery.vue'
 import img1 from '../assets/images/roseneggfest/img_8877.jpg'
 import img2 from '../assets/images/roseneggfest/img_8908.jpg'
 import img3 from '../assets/images/roseneggfest/img_8881.jpg'
 import img4 from '../assets/images/roseneggfest/img_8939.jpg'
 
-const images = [img1, img2, img3, img4]
+const images = [img1, img2, img3, img4].map((src, i) => ({ src, alt: `Spendenaktion beim Roseneggfest 2024, Bild ${i + 1}` }))
 </script>
 
 <template>
@@ -27,9 +28,7 @@ const images = [img1, img2, img3, img4]
           <cui-stat-card label="Spenden beim Roseneggfest 2024" value="289,21 €" />
         </div>
       </div>
-      <div class="ams-photo-grid">
-        <img v-for="(src, i) in images" :key="src" :src="src" :alt="`Spendenaktion beim Roseneggfest 2024, Bild ${i + 1}`" loading="lazy" />
-      </div>
+      <PhotoGallery :images="images" ratio="4 / 3" min-width="26rem" class="ams-gallery" />
     </div>
   </section>
 </template>

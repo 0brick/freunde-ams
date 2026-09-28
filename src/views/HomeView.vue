@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ZoomImage from '../components/ZoomImage.vue'
 import heroImage from '../assets/images/recital/kvcd4729.jpg'
 import kinderImage from '../assets/images/allgemein/og-kinder.jpg'
 import busunjuImage from '../assets/images/busunju/bild6.jpg'
@@ -58,7 +59,7 @@ const teasers = [
         </blockquote>
       </div>
       <aside class="intro__aside">
-        <img :src="kinderImage" alt="Kinder der Africa Music School beim Musizieren" class="ams-photo" loading="lazy" />
+        <ZoomImage :src="kinderImage" alt="Kinder der Africa Music School beim Musizieren" class="ams-photo" />
         <div class="ams-card">
           <h3>Einblick in die Arbeit der Schule</h3>
           <p>Verschaffen Sie sich einen Einblick in die Arbeit der Schule:</p>
