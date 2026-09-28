@@ -1,0 +1,1 @@
+var e=`/assets/eowg8894-cDEQ7_rm.jpg`;export{e as t};

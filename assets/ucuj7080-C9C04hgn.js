@@ -1,0 +1,1 @@
+var e=`/assets/ucuj7080-Bjc2vv29.jpg`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/assets/bild6-D83uTV13.jpg`;export{e as t};

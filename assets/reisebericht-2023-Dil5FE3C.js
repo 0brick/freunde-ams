@@ -1,0 +1,1 @@
+var e=`/assets/reisebericht-2023-KaIiCTcD.jpg`;export{e as t};

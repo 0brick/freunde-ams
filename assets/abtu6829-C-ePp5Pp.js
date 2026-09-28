@@ -1,0 +1,1 @@
+var e=`/assets/abtu6829-BnmOPgRm.jpg`;export{e as t};

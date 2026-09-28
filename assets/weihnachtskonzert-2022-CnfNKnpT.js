@@ -1,0 +1,1 @@
+var e=`/assets/weihnachtskonzert-2022-CG0rsgQP.jpg`;export{e as t};
